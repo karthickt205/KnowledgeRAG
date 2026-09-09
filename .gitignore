@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build / distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Project data and generated output
+# Keep source files tracked, but ignore local/generated files
+# If you want to commit sample data, remove the lines below.
+data/processed/
+*.sqlite3
+
+# Streamlit local cache
+.streamlit/
